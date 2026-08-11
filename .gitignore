@@ -70,3 +70,4 @@ mp-weixin/project.private.config.json
 *.bak
 *.tmp
 *.temp
+.workbuddy/
