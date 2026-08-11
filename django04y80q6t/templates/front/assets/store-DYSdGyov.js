@@ -1,0 +1,1 @@
+import{nt as e,y as t}from"./index-D81KACgZ.js";var n=``+new URL(`avatar-C0fvgLJr.jpeg`,import.meta.url).href;const r=t(`userinfo`,()=>{let t=e({avatar:n,username:`游客`});function r(e){t.value=e}return{userInfo:t,setUserInfo:r}});t(`menusVersion`,()=>{let t=e(0);function n(){t.value+=1}return{version:t,update:n}});export{r as t};

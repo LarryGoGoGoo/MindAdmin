@@ -1,0 +1,9 @@
+{
+  "navigationBarBackgroundColor": "#8262C5",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "弹窗提醒",
+  "usingComponents": {
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "zb-table": "/components/zb-table/zb-table"
+  }
+}

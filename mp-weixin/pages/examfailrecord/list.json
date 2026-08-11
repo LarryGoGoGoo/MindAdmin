@@ -1,0 +1,9 @@
+{
+  "navigationBarBackgroundColor": "#8262C5",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "错题本",
+  "usingComponents": {
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "uni-transition": "/components/uni-transition/uni-transition"
+  }
+}

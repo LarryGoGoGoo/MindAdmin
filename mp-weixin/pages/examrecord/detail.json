@@ -1,0 +1,9 @@
+{
+  "navigationBarBackgroundColor": "#8262C5",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "测评明细",
+  "usingComponents": {
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "uni-transition": "/components/uni-transition/uni-transition"
+  }
+}

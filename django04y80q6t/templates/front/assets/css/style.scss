@@ -1,0 +1,133 @@
+page {
+	background: #f6f8fb;
+	color: #263238;
+	font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+view,
+text,
+input,
+textarea,
+button {
+	letter-spacing: 0;
+}
+
+uni-input,
+input {
+	min-height: 88upx;
+}
+
+button,
+.cu-btn {
+	border: 0;
+	box-shadow: none;
+}
+
+button[disabled],
+.cu-btn[disabled] {
+	opacity: .58;
+}
+
+.content {
+	background: #f6f8fb;
+}
+
+.search-form input,
+.uni-input,
+.passwordInput input,
+textarea {
+	background: #ffffff !important;
+	border: 2rpx solid #e5eaf0 !important;
+	border-radius: 16rpx !important;
+	color: #263238 !important;
+}
+
+.search-form input {
+	background: #ffffff !important;
+	box-shadow: 0 8rpx 24rpx rgba(42, 55, 78, .06);
+}
+
+.btn-submit,
+.landing,
+.add-btn,
+.cu-btn {
+	background: linear-gradient(135deg, #4f7cff 0%, #7bc6a4 100%) !important;
+	color: #fff !important;
+	border-radius: 16rpx !important;
+	font-weight: 600;
+}
+
+.listBox,
+.recommend,
+.news,
+.me-menu-view,
+.uni-product,
+.list-item {
+	background: #ffffff !important;
+	border-color: #e5eaf0 !important;
+	box-shadow: 0 10rpx 28rpx rgba(42, 55, 78, .08) !important;
+}
+
+.uni-product,
+.list-item {
+	border-radius: 16rpx !important;
+}
+
+.uni-product-image,
+.list-item-image,
+.listmpic {
+	border: 0 !important;
+	border-radius: 14rpx !important;
+	background: #eef2f7;
+}
+
+.menu_view {
+	padding: 18rpx 20rpx 6rpx !important;
+	background: #ffffff !important;
+	box-shadow: 0 10rpx 28rpx rgba(42, 55, 78, .06);
+}
+
+.menu_view .menu-item .iconarr {
+	color: #4f7cff !important;
+}
+
+.menu_view .menu-item .text,
+.uni-product-title,
+.list-item-title,
+.title {
+	color: #263238 !important;
+}
+
+.category-one {
+	background: #edf3ff !important;
+}
+
+.category-one .tab {
+	background: #ffffff !important;
+	color: #465568 !important;
+	border: 2rpx solid #e5eaf0;
+}
+
+.category-one .tab.active {
+	background: #4f7cff !important;
+	border-color: #4f7cff;
+	color: #ffffff !important;
+}
+
+.screenBox,
+.passwordForm {
+	background: #ffffff !important;
+	box-shadow: -12rpx 0 40rpx rgba(42, 55, 78, .12);
+}
+
+.passwordForm .passwordInput {
+	background: transparent !important;
+	padding: 0;
+}
+
+.passwordBtn {
+	background: #4f7cff !important;
+	border-radius: 12rpx !important;
+	height: 72rpx !important;
+	line-height: 72rpx !important;
+}

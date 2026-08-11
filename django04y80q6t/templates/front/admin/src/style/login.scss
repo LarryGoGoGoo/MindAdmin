@@ -1,0 +1,239 @@
+/* 定义全局主题变量 */
+:root {
+  /* 主色-按钮 */
+  --btn-bg-color-: #3498db;
+  --btn-bg-hover-color-: #3e85b6;
+  --btn-font-color-: #FFF;
+  --btn-font-hover-color-: #FFF;
+
+  /* 副色-按钮 */
+  --btn2-bg-color-: #FAFAFA;
+  --btn2-bg-hover-color-: #d4d4d4;
+  --btn2-font-color-: #333333;
+  --btn2-font-hover-color-: #333333;
+}
+
+.login {
+  background: url(http://codegen.caihongy.cn/20260129/eb39b9462d564e8e86b441a26f9ef697.jpg) no-repeat center top / 100% 100%;
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  justify-content: flex-end;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+
+  /* 表单盒子 */
+  .loginform {
+    width: 960px;
+    border-radius: 0;
+    padding: 20px 480px 20px 20px;
+    margin: 0 auto;
+    overflow: hidden;
+    background: url(http://codegen.caihongy.cn/20260129/05d31ccad6ae466fa3177ebc89e4cd1f.jpg) no-repeat calc(100% - 20px) 20px / 440px calc(100% - 40px),#1d283a;
+    display: flex;
+    align-items: center;
+    height: auto;
+    border: 1px solid #2d3c51;
+    border-radius: 10px;
+  }
+
+  /* 媒体查询 */
+  @media screen and (max-width: 768px) {
+    .loginform {
+      width: 100%;
+    }
+  }
+
+  /* 表单盒子：二级 */
+  .loginform-wrapper {
+    padding: 0;
+    width: 100%;
+    height: auto;
+  }
+
+  /* 标题 */
+  .login-tip {
+    padding: 0;
+    color: #fff;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+
+  /* 标题 */
+  .title-box {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 12px;
+    padding: 0;
+    margin: 0 0 30px 0;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .inner-wrapper {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  /* 表单项 */
+  .el-form-item {
+    border-radius: 10px;
+    padding: 0;
+    margin: 0 auto 30px auto;
+    width: 100%;
+    height: auto;
+  }
+
+  /* 提示语 */
+  .el-select__placeholder,
+  .el-input__inner::placeholder {
+    color: #C3C7CC;
+    font-size: 14px;
+  }
+
+  /* 标签 */
+  .el-form-item__label {
+    color: #fff;
+  }
+
+  /* 通用输入框 */
+  .el-form-item__content {
+    line-height: 44px;
+  }
+
+  /* 文本框 */
+  .el-input {
+    --el-input-height: 44px;
+    font-size: 18px;
+  }
+
+  .el-input__wrapper {
+    box-shadow: inset 0px 3px 6px 1px rgba(0, 0, 0, 0.16);
+    background: #192231;
+    border: 1px solid #313a4b;
+  }
+  .el-input__wrapper .el-input__inner{
+    color: #fff;
+  }
+
+  /* 下拉 */
+  .el-select__wrapper {
+    line-height: 44px;
+    height: 44px;
+    box-shadow: inset 0px 3px 6px 1px rgba(0, 0, 0, 0.16);
+    background: #192231;
+    transition: all 0s;
+    border: 1px solid #313a4b;
+  }
+  .el-select__wrapper.is-focused {
+    box-shadow: none;
+}
+  .el-select__wrapper.is-hovering:not(.is-focused) {
+    box-shadow: none;
+}
+
+  /* 验证码 */
+  .code {
+    .el-form-item__content {
+      flex-wrap: nowrap;
+    }
+
+    .code-box {
+      cursor: pointer;
+      margin: 0 0 0 10px;
+      display: flex;
+      border-radius: 6px;
+      flex: 0 0 auto;
+      background: var(--btn-bg-color-);
+      width: 120px;
+      justify-content: center;
+      align-items: center;
+      user-select: none;
+      gap: 4px;
+    }
+
+  }
+
+  /* 注册按钮盒子 */
+  .registerbox-login {
+    width: 100%;
+    padding: 0;
+    margin: 0 0 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 30px;
+    height: auto;
+  }
+
+
+  /* 登录按钮 */
+  .login-btn {
+    width: 100%;
+    background: linear-gradient(180deg, rgba(57,69,88,1) 0%, rgba(42,53,71,1) 50%, rgba(57,69,88,1) 100%);
+    padding: 4px 15px;
+    margin: 20px 0;
+    color: var(--btn-font-color-);
+    border-radius: 24px;
+    font-size: 20px;
+    height: 48px;
+    box-shadow: none;
+    border: 1px solid #455062;
+
+    &:hover {
+      
+    }
+  }
+
+  /* 人脸识别 */
+  .el-button.is-text.face-btn{
+    background: linear-gradient(180deg, rgba(57,69,88,1) 0%, rgba(42,53,71,1) 50%, rgba(57,69,88,1) 100%);
+    width: auto;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  /* 邮箱登陆 */
+  .el-button.is-text.email-btn {
+    background: linear-gradient(180deg, rgba(57,69,88,1) 0%, rgba(42,53,71,1) 50%, rgba(57,69,88,1) 100%);
+    width: auto;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* 忘记密码 */
+.face-forget-wrapper{
+  width: 100%;
+  margin-bottom: 10px;
+}
+.el-button.is-text.forget-btn {
+    color: #ccc;
+    font-weight: 500;
+    font-size: 16px;
+    float: right;
+}
+.el-button.is-text.forget-btn:hover {
+    background: none;
+    color: #fff;
+}
+}
+
+  /* 菜单列表 */
+/* .content-wrapper .custom-menu-page .el-tree {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.content-wrapper .custom-menu-page .el-tree-node.is-focusable {
+    border: 1px solid #eee;
+    width: 48%;
+    margin: 0 0 10px;
+} */

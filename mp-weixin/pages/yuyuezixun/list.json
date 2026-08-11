@@ -1,0 +1,8 @@
+{
+  "navigationBarBackgroundColor": "#8262C5",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "预约咨询",
+  "usingComponents": {
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni"
+  }
+}
